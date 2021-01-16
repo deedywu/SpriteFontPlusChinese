@@ -5,21 +5,16 @@
     <StartupObject />
     <TargetFramework>net45</TargetFramework>
     <OutputPath>bin\MonoGame\$(Configuration)</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   
   <ItemGroup>
-    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.7.1.189" />
+    <PackageReference Include="MonoGame.Framework.WindowsDX" Version="3.7.1.189" />
+    <PackageReference Include="StbTrueTypeSharp" Version="1.24.7" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\SpriteFontPlus.MonoGame.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="Fonts\DroidSans.ttf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Fonts\DroidSansJapanese.ttf">
+    <None Update="Fonts\SourceHanSansCN-Normal.ttf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>  

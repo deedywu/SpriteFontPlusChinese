@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SpriteFontPlus.Samples.TtfBaking
+namespace SpriteFontPlus.Samples.TtfBaking.MonoGame
 {
     /// <summary>
     /// The main class.
