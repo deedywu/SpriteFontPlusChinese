@@ -104,7 +104,7 @@ namespace SpriteFontPlus.Samples.TtfBaking.MonoGame
             _spriteBatch.Begin();
 
             // Render some text
-            _spriteBatch.DrawString(_fontChinese, "《这是绘制的一段中文!》", Vector2.One, Color.White);
+            _spriteBatch.DrawString(_fontChinese, "《这是绘制的一段中文!让 monogame 支持中文 ！~》", Vector2.One, Color.White);
 
             _spriteBatch.End();
 
